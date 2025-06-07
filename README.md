@@ -127,5 +127,5 @@ Welcome to *LearnLab LMS*, a full-stack Learning Management System designed to o
 ## Contact
 
 For any queries or suggestions, feel free to reach out:
-- Author: Vishnu Prasad V V
-- Email: vishnuprasadvv24@gmail.com
+- Author: Abhijeet Jadhav
+- Email: jabhijeet9224@gmail.com
