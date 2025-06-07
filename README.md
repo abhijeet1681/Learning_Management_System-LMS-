@@ -62,7 +62,7 @@ Welcome to *LearnLab LMS*, a full-stack Learning Management System designed to o
 1. *Clone the repository:*
    
    bash
-   git clone https://github.com/vishnuprasadvv/LearnLab-Project.git
+   git clone https://github.com/abhijeet1681/Learning_Management_System-LMS-.git
    cd LearnLab-Project
 
 2. **Install Dependencies:**
