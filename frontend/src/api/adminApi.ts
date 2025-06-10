@@ -4,13 +4,14 @@ import adminInterceptorApi from '@/axios/auth/adminInterceptors';
 import { config } from '@/config/config';
 const API_URL = config.app.PORT;
 
-export const adminLogin = async (email : string, password: string) => {
-  const response = await adminInterceptorApi.post(`${API_URL}/admin/login`, {email, password}, {withCredentials: true});
+export const adminLogin = async (email: string, password: string) => {
+  // Fix the URL to use /api/admin/login instead of /admin/login
+  const response = await axios.post(`${API_URL}/api/admin/login`, {email, password}, {withCredentials: true});
   return response.data;
 }
 
 export const adminLogout = async() => {
-  const response = await adminInterceptorApi.post(`${API_URL}/admin/logout`)
+  const response = await adminInterceptorApi.post(`/logout`)
   return response
 } 
 

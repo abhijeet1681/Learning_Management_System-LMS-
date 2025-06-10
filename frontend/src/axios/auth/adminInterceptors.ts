@@ -4,8 +4,9 @@ import axios from "axios";
 
 const API_URL = config.app.PORT;
 
+// Fix the baseURL to use /api/admin instead of just /admin
 const adminInterceptorApi = axios.create({
-    baseURL: `${API_URL}/admin`,
+    baseURL: `${API_URL}/api/admin`,
     withCredentials: true
 })
 

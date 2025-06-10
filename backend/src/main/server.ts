@@ -118,7 +118,7 @@ app.get('/', (req: Request , res:Response, next : NextFunction) => {
 })
 
 //authroutes 
-app.use('/api/auth', authRoutes)
+app.use('/auth', authRoutes)
 app.use('/api/student', studentRoutes)
 app.use('/api/admin', adminRouter)
 app.use('/api/instructor', instructorRouter)

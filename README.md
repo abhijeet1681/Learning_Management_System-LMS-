@@ -123,6 +123,7 @@ Welcome to *LearnLab LMS*, a full-stack Learning Management System designed to o
      npm run dev
 
 5. *Access the Application*
+http://localhost:5173/admin/login 
 
    - Open your browser and visit: http://localhost:<frontend_port>
 
